@@ -1,5 +1,9 @@
 ## Release (2026-MM-DD)
 
+- `functions`:
+  - [v0.1.0](services/functions/CHANGELOG.md#v010)
+    - `v1alphaapi`:
+      - **Feature**: initial release
 - `telemetrylink`:
   - [v0.6.0](services/telemetrylink/CHANGELOG.md#v060)
     - `v1api`:
@@ -348,6 +352,12 @@
     - **Dependencies:** Bump STACKIT SDK resourcemanager module from `v0.24.1` to `v0.24.2`
   - [v1.14.0](services/iaas/CHANGELOG.md#v1140)
     - **Dependencies:** Bump STACKIT SDK resourcemanager module from `v0.24.0` to `v0.24.1`
+- `iaas`: [v1.14.0](services/iaas/CHANGELOG.md#v1140)
+  - **Dependencies:** Bump STACKIT SDK resourcemanager module from `v0.24.0` to `v0.24.1`
+  - **Breaking Change:** Removed the `ServerVTPM` model and the corresponding `vtpm` field from the `Server` model, as this functionality was unintentionally released and non-functional.
+  - **Bugfix:** Escape regex in validate tags correctly
+  - **Bugfix:** Fix response decoding into byte slices and readers
+  - `v1api`:
     - **Breaking Change:** Removed the `ServerVTPM` model and the corresponding `vtpm` field from the `Server` model, as this functionality was unintentionally released and non-functional.
     - **Bugfix:** Escape regex in validate tags correctly
     - **Bugfix:** Fix response decoding into byte slices and readers
