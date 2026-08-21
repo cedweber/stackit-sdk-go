@@ -12,6 +12,7 @@ use (
 	./examples/dremio
 	./examples/edge
 	./examples/errorhandling
+	./examples/functions
 	./examples/iaas
 	./examples/intake
 	./examples/kms
